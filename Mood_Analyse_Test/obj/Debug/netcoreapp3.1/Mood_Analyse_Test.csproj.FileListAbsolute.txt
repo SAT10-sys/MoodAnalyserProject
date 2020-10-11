@@ -1,0 +1,4 @@
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyse_Test\obj\Debug\netcoreapp3.1\Mood_Analyse_Test.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyse_Test\obj\Debug\netcoreapp3.1\Mood_Analyse_Test.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyse_Test\obj\Debug\netcoreapp3.1\Mood_Analyse_Test.AssemblyInfo.cs
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyse_Test\obj\Debug\netcoreapp3.1\Mood_Analyse_Test.csproj.CoreCompileInputs.cache
