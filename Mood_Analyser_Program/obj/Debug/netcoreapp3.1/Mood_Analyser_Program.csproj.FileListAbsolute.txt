@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.exe
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.deps.json
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.runtimeconfig.json
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.runtimeconfig.dev.json
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.dll
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\bin\Debug\netcoreapp3.1\Mood_Analyser_Program.pdb
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.AssemblyInfo.cs
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.dll
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.pdb
+C:\Users\USER\source\repos\Mood_Analyser_Program\Mood_Analyser_Program\obj\Debug\netcoreapp3.1\Mood_Analyser_Program.genruntimeconfig.cache
