@@ -19,14 +19,19 @@ namespace Mood_Analyser_Program
         {
             try
             {
+                if (message == "")
+                {
+                    throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.EMPTY_MESSAGE, "Mood cannot be empty");
+                }
                 if (message.ToUpper().Contains("SAD"))
+                {
                     return "SAD";
-                else
-                    return "HAPPY";
-            }
-            catch(Exception e)
-            {
+                }
                 return "HAPPY";
+            }
+            catch(NullReferenceException)
+            {
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NULL_MESSAGE, "Mood cannot be null");
             }
         }
     }
