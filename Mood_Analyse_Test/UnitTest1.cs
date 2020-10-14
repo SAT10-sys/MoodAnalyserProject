@@ -98,5 +98,41 @@ namespace Mood_Analyse_Test
                 Assert.AreEqual("No such constructor found", e.Message);
             }
         }
+        [TestMethod]
+        public void TestCase5_1()
+        {
+            string message = "HAPPY";
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyserFactory.CreateMoodAnalyserUsingParameterizedConstructor("MoodAnalyserProgram.MoodAnalyse", "MoodAnalyser", message);
+            Assert.AreEqual(expected.GetType(), obj.GetType());
+        }
+        [TestMethod]
+        public void TestCase5_2()
+        {
+            string message = "HAPPY";
+            try
+            {
+                object expected = new MoodAnalyser("Happy");
+                object obj = MoodAnalyserFactory.CreateMoodAnalyserUsingParameterizedConstructor("MoodAnalyserProgram.MoodAnalyse", "MoodAnalyser", message);
+            }
+            catch (MoodAnalysisException e)
+            {
+                Assert.AreEqual("No such class found", e.Message);
+            }
+        }
+        [TestMethod]
+        public void TestCase5_3()
+        {
+            string message = "HAPPY";
+            try
+            {
+                object expected = new MoodAnalyser("Happy");
+                object obj = MoodAnalyserFactory.CreateMoodAnalyserUsingParameterizedConstructor("MoodAnalyserProgram.MoodAnalyse", "MoodAnalyser", message);
+            }
+            catch (MoodAnalysisException e)
+            {
+                Assert.AreEqual("No such constructor found", e.Message);
+            }
+        }
     }
 }
