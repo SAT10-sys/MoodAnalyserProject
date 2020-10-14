@@ -17,6 +17,7 @@ namespace Mood_Analyse_Test
 
             Assert.AreEqual("SAD", resultMood);
         }
+        [TestMethod]
         public void TestCase1_2()
         {
             string message = "I am in Happy Mood";
@@ -26,6 +27,7 @@ namespace Mood_Analyse_Test
 
             Assert.AreEqual("HAPPY", resultMood);
         }
+        [TestMethod]
         public void TestCase2()
         {
             string message = null;
@@ -35,6 +37,7 @@ namespace Mood_Analyse_Test
 
             Assert.AreEqual("HAPPY", resultMood);
         }
+        [TestMethod]
         public void TestCase3_1()
         {
             try
@@ -48,6 +51,7 @@ namespace Mood_Analyse_Test
                 Assert.AreEqual("Mood cannot be null", e.Message);
             }
         }
+        [TestMethod]
         public void TestCase3_2()
         {
             try
@@ -59,6 +63,39 @@ namespace Mood_Analyse_Test
             catch(MoodAnalysisException e)
             {
                 Assert.AreEqual("Mood cannot be empty", e.Message);
+            }
+        }
+        [TestMethod]
+        public void TestCase4_1()
+        {
+            object expected = new MoodAnalyser();
+            object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProgram.MoodAnalyser", "MoodAnalyser");
+            Assert.AreEqual(expected.GetType(), obj.GetType());
+        }
+        [TestMethod]
+        public void TestCase4_2()
+        {
+            try
+            {
+                object expected = new MoodAnalyser();
+                object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProgram.MoodAnalyser", "MoodAnalyser");
+            }
+            catch(MoodAnalysisException e)
+            {
+                Assert.AreEqual("No such class found", e.Message);
+            }
+        }
+        [TestMethod]
+        public void TestCase4_3()
+        {
+            try
+            {
+                object expected = new MoodAnalyser();
+                object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProgram.MoodAnalyser", "MoodAnalyser");
+            }
+            catch (MoodAnalysisException e)
+            {
+                Assert.AreEqual("No such constructor found", e.Message);
             }
         }
     }
